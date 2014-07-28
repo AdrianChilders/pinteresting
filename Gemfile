@@ -13,11 +13,11 @@ gem 'devise', '~> 3.2.4'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'rails_12factor'
 end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :doc do
