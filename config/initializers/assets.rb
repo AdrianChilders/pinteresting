@@ -1,0 +1,1 @@
+Rails.application.config.assets.precompile += %w(bootstrap/glyphicons-halflings-regular.ttf bootstrap/glyphicons-halflings-regular.eot bootstrap/glyphicons-halflings-regular.woff) 
